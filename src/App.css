@@ -1,0 +1,33 @@
+*{
+  background-color: #161616;
+}
+.card{
+  background-color: #242323;
+  cursor: pointer;
+}
+
+.p{
+  color: #ffffff;
+  background: none;
+}
+.cardB:hover{
+  background-color: rgb(238, 145, 59);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 35px;
+  color: #ffffff;
+}
